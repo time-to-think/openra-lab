@@ -1,0 +1,6 @@
+/OpenRA-LLM-Arena.exe
+/OpenRA.exe
+/.local/
+*.local.md
+/.env
+/.env.*
