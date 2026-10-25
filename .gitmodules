@@ -1,3 +1,4 @@
 [submodule "openra"]
 	path = openra
-	url = https://github.com/KDW030617/openra.git
+	url = https://github.com/time-to-think/openra.git
+	branch = engine/llm-bridge
