@@ -29,8 +29,8 @@ excluded from Git. A fresh clone begins with the base model and creates its own 
 ## Repository boundary
 
 Changes to the OpenRA bridge or bot definitions go through a pull request into `time-to-think/openra:develop`.
-The current submodule commit is available from `KDW030617/openra` while the PR remains open. After the PR is
-merged, switch the submodule URL to `time-to-think/openra` and pin its merged commit.
+The submodule tracks the `engine/llm-bridge` branch of `time-to-think/openra`, which carries the pinned
+LLM bridge commit until it is merged into `develop`. After the merge, repoint the submodule branch to `develop`.
 The submodule commit must include the `Qwen (LLM)` bot on port 7703; the default launcher mode depends on it.
 
 OpenRA and this lab code are distributed under the GNU GPL v3 or later; see [COPYING](COPYING).
